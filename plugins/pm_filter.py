@@ -500,7 +500,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         cpu_usage = psutil.cpu_percent()
         ram_usage = psutil.virtual_memory().percent
         disk_usage = psutil.disk_usage('/').percent
-        ms_g = f"""<b>⚙️ 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗎𝗌</b>
+        ms_g = f"""<b> 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗎𝗌</b>
 
     🕔 𝖴𝗉𝗍𝗂𝗆𝖾: <code>{currentTime}</code>
     🛠 𝖢𝖯𝖴 𝖴𝗌𝖺𝗀𝖾: <code>{cpu_usage}%</code>
